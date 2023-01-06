@@ -1,0 +1,81 @@
+.sidebar {
+  margin: 20px auto;
+  height: 100px;
+  width: 900px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 180px auto 180px 180px;
+}
+
+.sidebar__option {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  margin-right: -2px;
+  border-bottom: none;
+  font-family: Josefin Sans, sans-serif;
+}
+
+label {
+  font-weight: 500;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 0.9rem;
+}
+
+select {
+  font-weight: 500;
+  font-family: Josefin Sans, sans-serif;
+  border: none;
+  font-size: 0.9rem;
+  outline: none;
+  background-color: transparent;
+}
+
+.MuiSlider-track {
+  color: green;
+}
+
+.slider {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 1px lightgrey;
+  }
+
+  .slider {
+    max-width: 50px;
+  }
+  .sidebar__option {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    max-width: 72px;
+    margin-right: -2px;
+    border-bottom: none;
+  }
+
+  select {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  label {
+    font-size: 0.9rem;
+    display: none;
+  }
+}
