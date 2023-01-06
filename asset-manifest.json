@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sorting-Algorithm-Visulizer/static/css/main.9bacf077.css",
+    "main.js": "/Sorting-Algorithm-Visulizer/static/js/main.db1c4488.js",
+    "index.html": "/Sorting-Algorithm-Visulizer/index.html",
+    "main.9bacf077.css.map": "/Sorting-Algorithm-Visulizer/static/css/main.9bacf077.css.map",
+    "main.db1c4488.js.map": "/Sorting-Algorithm-Visulizer/static/js/main.db1c4488.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bacf077.css",
+    "static/js/main.db1c4488.js"
+  ]
+}
